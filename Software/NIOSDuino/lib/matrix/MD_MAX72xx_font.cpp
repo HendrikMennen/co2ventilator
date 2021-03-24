@@ -107,7 +107,9 @@ uint8_t MD_MAX72XX::getFontWidth(void)
     PRINTS("\nFinding max font width");
     if (_fontData != nullptr)
     {
-        for (uint16_t i = _fontInfo.firstASCII; i <= 5; i++)
+        
+        //for (uint16_t i = _fontInfo.firstASCII; i <= _fontInfo.lastASCII; i++)
+        for (uint16_t i = _fontInfo.firstASCII; i <= 5; i++) //
         {
             charWidth = pgm_read_byte(_fontData + offset);
             /*
