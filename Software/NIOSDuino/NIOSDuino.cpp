@@ -33,7 +33,7 @@ void loop(void)
     if (P.displayAnimate())
         P.displayText(co2, PA_CENTER, P.getSpeed(), P.getPause(), PA_NO_EFFECT, PA_NO_EFFECT);
     
-    if(scd30.co2_value() > 2000)
+    if(scd30.co2_value() > 1000)
         digitalWrite(A3, HIGH); //Turn on ventilator
     else
         digitalWrite(A3, LOW);//Turn off ventilator
