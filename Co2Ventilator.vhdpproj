@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<ProjectRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>Co2Ventilator</Header>
+  <Items xsi:type="ProjectFolder">
+    <Header>Generated</Header>
+    <Items xsi:type="ProjectFileVHDL">
+      <Header>Co2Ventilator.vhd</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVHDL">
+      <Header>NIOSDuino_Processor.vhd</Header>
+    </Items>
+  </Items>
+  <Items xsi:type="ProjectFolder">
+    <Header>Libraries</Header>
+    <Items xsi:type="ProjectFolder">
+      <Header>NIOSDuino</Header>
+      <Items xsi:type="ProjectFile">
+        <Header>NIOSDuino_Core.qsys</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDP">
+        <Header>NIOSDuino_Core.vhdp</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVerilog">
+        <Header>avalon_pwm.v</Header>
+      </Items>
+      <Items xsi:type="ProjectFile">
+        <Header>avalon_pwm_hw.tcl</Header>
+      </Items>
+      <Items xsi:type="ProjectFile">
+        <Header>avalon_pwm_sw.tcl</Header>
+      </Items>
+    </Items>
+  </Items>
+  <Items xsi:type="ProjectFolder">
+    <Header>Software</Header>
+    <Items xsi:type="ProjectFolder">
+      <Header>NIOSDuino</Header>
+      <Items xsi:type="ProjectFolder">
+        <Header>arduino</Header>
+        <Items xsi:type="ProjectFolder">
+          <Header>SPI</Header>
+          <Items xsi:type="ProjectFolder">
+            <Header>src</Header>
+            <Items xsi:type="ProjectFile">
+              <Header>SPI.cpp</Header>
+            </Items>
+            <Items xsi:type="ProjectFile">
+              <Header>SPI.h</Header>
+            </Items>
+          </Items>
+        </Items>
+        <Items xsi:type="ProjectFolder">
+          <Header>Wire</Header>
+          <Items xsi:type="ProjectFolder">
+            <Header>src</Header>
+            <Items xsi:type="ProjectFile">
+              <Header>Wire.cpp</Header>
+            </Items>
+            <Items xsi:type="ProjectFile">
+              <Header>Wire.h</Header>
+            </Items>
+          </Items>
+        </Items>
+        <Items xsi:type="ProjectFolder">
+          <Header>avr</Header>
+          <Items xsi:type="ProjectFile">
+            <Header>eeprom.c</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>eeprom.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>interrupt.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>io.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>pgmspace.h</Header>
+          </Items>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Adafruit_Sensor.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Arduino.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Client.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>EEPROM.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>GenericSerial.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>GenericSerial.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial0.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial1.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial2.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial3.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>IPAddress.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>IPAddress.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Print.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Print.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Printable.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>SPIFlash.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>SPIFlash.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Server.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Stream.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Stream.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Udp.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>WCharacter.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>WMath.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>WString.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>WString.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>avalon_pwm_regs.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>binary.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>main.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>pins_arduino.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>wiring_analog.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>wiring_digital.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>wiring_pulse.c</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>wiring_shift.c</Header>
+        </Items>
+      </Items>
+      <Items xsi:type="ProjectFolder">
+        <Header>lib</Header>
+        <Items xsi:type="ProjectFolder">
+          <Header>matrix</Header>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_MAX72xx.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_MAX72xx.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_MAX72xx_buf.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_MAX72xx_font.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_MAX72xx_lib.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_MAX72xx_pix.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_PZone.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Blinds.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Close.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Diag.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Dissolve.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Fade.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Grow.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_HScroll.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Mesh.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Open.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Print.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Random.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Scan.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Slice.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Sprite.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_VScroll.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_Wipe.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>MD_Parola_lib.h</Header>
+          </Items>
+        </Items>
+      </Items>
+      <Items xsi:type="ProjectFile">
+        <Header>NIOSDuino.cpp</Header>
+      </Items>
+    </Items>
+    <Items xsi:type="ProjectFolder">
+      <Header>TTest</Header>
+      <Items xsi:type="ProjectFolder">
+        <Header>arduino</Header>
+        <Items xsi:type="ProjectFolder">
+          <Header>SPI</Header>
+          <Items xsi:type="ProjectFolder">
+            <Header>src</Header>
+            <Items xsi:type="ProjectFile">
+              <Header>SPI.cpp</Header>
+            </Items>
+            <Items xsi:type="ProjectFile">
+              <Header>SPI.h</Header>
+            </Items>
+          </Items>
+        </Items>
+        <Items xsi:type="ProjectFolder">
+          <Header>Wire</Header>
+          <Items xsi:type="ProjectFolder">
+            <Header>src</Header>
+            <Items xsi:type="ProjectFile">
+              <Header>Wire.cpp</Header>
+            </Items>
+            <Items xsi:type="ProjectFile">
+              <Header>Wire.h</Header>
+            </Items>
+          </Items>
+        </Items>
+        <Items xsi:type="ProjectFolder">
+          <Header>avr</Header>
+          <Items xsi:type="ProjectFile">
+            <Header>eeprom.c</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>eeprom.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>interrupt.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>io.h</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>pgmspace.h</Header>
+          </Items>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Adafruit_Sensor.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Arduino.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Client.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>EEPROM.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>GenericSerial.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>GenericSerial.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial0.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial1.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial2.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>HardwareSerial3.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>IPAddress.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>IPAddress.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Print.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Print.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Printable.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>SPIFlash.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>SPIFlash.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Server.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Stream.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Stream.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>Udp.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>WCharacter.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>WMath.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>WString.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>WString.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>avalon_pwm_regs.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>binary.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>main.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>pins_arduino.h</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>wiring_analog.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>wiring_digital.cpp</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>wiring_pulse.c</Header>
+        </Items>
+        <Items xsi:type="ProjectFile">
+          <Header>wiring_shift.c</Header>
+        </Items>
+      </Items>
+      <Items xsi:type="ProjectFile">
+        <Header>TTest.cpp</Header>
+      </Items>
+    </Items>
+  </Items>
+  <Items xsi:type="ProjectFileVHDP">
+    <Header>Co2Ventilator.vhdp</Header>
+  </Items>
+  <CruviHSExtensions>
+    <string xsi:nil="true" />
+  </CruviHSExtensions>
+  <CruviLSExtensions>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </CruviLSExtensions>
+  <IOVoltage>0</IOVoltage>
+  <SoftwareStartPathRelative>Software\TTest</SoftwareStartPathRelative>
+  <UseShield>false</UseShield>
+</ProjectRoot>
