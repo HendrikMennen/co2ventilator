@@ -1,8 +1,8 @@
 [
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -19,9 +19,9 @@
     "file": "NIOSDuino.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -38,9 +38,9 @@
     "file": "arduino/Adafruit_Sensor.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -57,9 +57,9 @@
     "file": "arduino/Arduino.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -76,9 +76,9 @@
     "file": "arduino/Client.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -95,9 +95,9 @@
     "file": "arduino/EEPROM.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -114,9 +114,9 @@
     "file": "arduino/GenericSerial.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -133,9 +133,9 @@
     "file": "arduino/GenericSerial.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -152,9 +152,9 @@
     "file": "arduino/HardwareSerial.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -171,9 +171,9 @@
     "file": "arduino/HardwareSerial.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -190,9 +190,9 @@
     "file": "arduino/HardwareSerial0.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -209,9 +209,9 @@
     "file": "arduino/HardwareSerial1.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -228,9 +228,9 @@
     "file": "arduino/HardwareSerial2.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -247,9 +247,9 @@
     "file": "arduino/HardwareSerial3.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -266,9 +266,9 @@
     "file": "arduino/IPAddress.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -285,9 +285,9 @@
     "file": "arduino/IPAddress.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -304,9 +304,9 @@
     "file": "arduino/Print.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -323,9 +323,9 @@
     "file": "arduino/Print.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -342,9 +342,9 @@
     "file": "arduino/Printable.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -361,9 +361,9 @@
     "file": "arduino/SPIFlash.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -380,9 +380,9 @@
     "file": "arduino/SPIFlash.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -399,9 +399,9 @@
     "file": "arduino/Server.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -418,9 +418,9 @@
     "file": "arduino/Stream.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -437,9 +437,9 @@
     "file": "arduino/Stream.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -456,9 +456,9 @@
     "file": "arduino/Udp.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -475,9 +475,9 @@
     "file": "arduino/WCharacter.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -494,9 +494,9 @@
     "file": "arduino/WMath.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -513,9 +513,9 @@
     "file": "arduino/WString.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -532,9 +532,9 @@
     "file": "arduino/WString.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -551,9 +551,9 @@
     "file": "arduino/avalon_pwm_regs.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -570,9 +570,9 @@
     "file": "arduino/binary.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -589,9 +589,9 @@
     "file": "arduino/main.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -608,9 +608,9 @@
     "file": "arduino/pins_arduino.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -627,9 +627,9 @@
     "file": "arduino/wiring_analog.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -646,9 +646,9 @@
     "file": "arduino/wiring_digital.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -665,9 +665,9 @@
     "file": "arduino/wiring_pulse.c"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -684,9 +684,9 @@
     "file": "arduino/wiring_shift.c"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -703,9 +703,9 @@
     "file": "arduino/SPI/src/SPI.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -722,9 +722,9 @@
     "file": "arduino/SPI/src/SPI.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -741,9 +741,9 @@
     "file": "arduino/Wire/src/Wire.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -760,9 +760,9 @@
     "file": "arduino/Wire/src/Wire.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -779,9 +779,9 @@
     "file": "arduino/avr/eeprom.c"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -798,9 +798,9 @@
     "file": "arduino/avr/eeprom.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -817,9 +817,9 @@
     "file": "arduino/avr/interrupt.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -836,9 +836,9 @@
     "file": "arduino/avr/io.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -855,9 +855,47 @@
     "file": "arduino/avr/pgmspace.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
+      "-Iarduino",
+      "-Iarduino/Wire/src",
+      "-Iarduino/SPI/src",
+      "-Igenerated_bsp",
+      "-Igenerated_bsp/HAL/inc",
+      "-Igenerated_bsp/drivers/inc",
+      "-D__AVR__",
+      "-D__STDC__",
+      "-DARDUINO=185",
+      "-xc++",
+      "-std=gnu++11",
+      "lib/SCD30/scd30.cpp"
+    ],
+    "file": "lib/SCD30/scd30.cpp"
+  },
+  {
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
+    "arguments": [
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
+      "-Iarduino",
+      "-Iarduino/Wire/src",
+      "-Iarduino/SPI/src",
+      "-Igenerated_bsp",
+      "-Igenerated_bsp/HAL/inc",
+      "-Igenerated_bsp/drivers/inc",
+      "-D__AVR__",
+      "-D__STDC__",
+      "-DARDUINO=185",
+      "-xc++",
+      "-std=gnu++11",
+      "lib/SCD30/scd30.h"
+    ],
+    "file": "lib/SCD30/scd30.h"
+  },
+  {
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
+    "arguments": [
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -874,9 +912,9 @@
     "file": "lib/matrix/MD_MAX72xx.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -893,9 +931,9 @@
     "file": "lib/matrix/MD_MAX72xx.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -912,9 +950,9 @@
     "file": "lib/matrix/MD_MAX72xx_buf.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -931,9 +969,9 @@
     "file": "lib/matrix/MD_MAX72xx_font.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -950,9 +988,9 @@
     "file": "lib/matrix/MD_MAX72xx_lib.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -969,9 +1007,9 @@
     "file": "lib/matrix/MD_MAX72xx_pix.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -988,9 +1026,9 @@
     "file": "lib/matrix/MD_PZone.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1007,9 +1045,9 @@
     "file": "lib/matrix/MD_Parola.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1026,9 +1064,9 @@
     "file": "lib/matrix/MD_Parola.h"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1045,9 +1083,9 @@
     "file": "lib/matrix/MD_Parola_Blinds.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1064,9 +1102,9 @@
     "file": "lib/matrix/MD_Parola_Close.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1083,9 +1121,9 @@
     "file": "lib/matrix/MD_Parola_Diag.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1102,9 +1140,9 @@
     "file": "lib/matrix/MD_Parola_Dissolve.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1121,9 +1159,9 @@
     "file": "lib/matrix/MD_Parola_Fade.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1140,9 +1178,9 @@
     "file": "lib/matrix/MD_Parola_Grow.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1159,9 +1197,9 @@
     "file": "lib/matrix/MD_Parola_HScroll.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1178,9 +1216,9 @@
     "file": "lib/matrix/MD_Parola_Mesh.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1197,9 +1235,9 @@
     "file": "lib/matrix/MD_Parola_Open.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1216,9 +1254,9 @@
     "file": "lib/matrix/MD_Parola_Print.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1235,9 +1273,9 @@
     "file": "lib/matrix/MD_Parola_Random.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1254,9 +1292,9 @@
     "file": "lib/matrix/MD_Parola_Scan.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1273,9 +1311,9 @@
     "file": "lib/matrix/MD_Parola_Slice.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1292,9 +1330,9 @@
     "file": "lib/matrix/MD_Parola_Sprite.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1311,9 +1349,9 @@
     "file": "lib/matrix/MD_Parola_VScroll.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1330,9 +1368,9 @@
     "file": "lib/matrix/MD_Parola_Wipe.cpp"
   },
   {
-    "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
+    "directory": "/home/hendrik/VHDPlus/Projects/co2ventilator/Software/NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "/home/hendrik/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/nios2-elf-gcc",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",

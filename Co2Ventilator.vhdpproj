@@ -188,6 +188,15 @@
       <Items xsi:type="ProjectFolder">
         <Header>lib</Header>
         <Items xsi:type="ProjectFolder">
+          <Header>SCD30</Header>
+          <Items xsi:type="ProjectFile">
+            <Header>scd30.cpp</Header>
+          </Items>
+          <Items xsi:type="ProjectFile">
+            <Header>scd30.h</Header>
+          </Items>
+        </Items>
+        <Items xsi:type="ProjectFolder">
           <Header>matrix</Header>
           <Items xsi:type="ProjectFile">
             <Header>MD_MAX72xx.cpp</Header>
@@ -443,6 +452,6 @@
     <string xsi:nil="true" />
   </CruviLSExtensions>
   <IOVoltage>0</IOVoltage>
-  <SoftwareStartPathRelative>Software\TTest</SoftwareStartPathRelative>
+  <SoftwareStartPathRelative>Software/NIOSDuino</SoftwareStartPathRelative>
   <UseShield>false</UseShield>
 </ProjectRoot>

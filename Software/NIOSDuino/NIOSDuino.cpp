@@ -9,6 +9,8 @@
 #include "lib/matrix/MD_Parola.h"
 #include "lib/matrix/MD_MAX72xx.h"
 #include <SPI.h>
+#include "lib/SCD30/scd30.h"
+#include <string.h>
 
 // Define the number of devices we have in the chain and the hardware interface
 // NOTE: These pin numbers will probably not work with your hardware and may
@@ -18,22 +20,27 @@
 
 
 // Hardware SPI connection
-//MD_Parola P = MD_Parola(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
+//MD_Parola P = MD_Parola(HARDWARE_TYPE, A2, MAX_DEVICES);
 // Arbitrary output pins
 MD_Parola P = MD_Parola(HARDWARE_TYPE, A2, A0, A1, MAX_DEVICES);
+SCD30 scd30;
 
 void setup(void)
 {
-    P.begin();
     Serial0.begin(9600);
+    P.begin();   
+    scd30.begin();
 }
 
 void loop(void)
 {
-    Serial0.println("Test");
+    scd30.read();
+    char co2[32];
     
-    //if (P.displayAnimate())
-    //    P.displayText("Hello", PA_CENTER, P.getSpeed(), P.getPause(), PA_SCROLL_DOWN, PA_SCROLL_UP);
+    sprintf(co2, "%d", (int)scd30.co2_value());
     
-    delay(1000);
+    if (P.displayAnimate())
+        P.displayText(co2, PA_CENTER, P.getSpeed(), P.getPause(), PA_NO_EFFECT, PA_NO_EFFECT);
+    
+    delay(100);
 }

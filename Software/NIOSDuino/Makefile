@@ -163,6 +163,7 @@ CXX_SRCS += arduino/Wire/src/Wire.cpp
 CXX_SRCS += arduino/main.cpp
 CXX_SRCS += arduino/wiring_analog.cpp
 CXX_SRCS += arduino/wiring_digital.cpp
+CXX_SRCS += lib/SCD30/scd30.cpp
 CXX_SRCS += lib/matrix/MD_MAX72xx.cpp
 CXX_SRCS += lib/matrix/MD_MAX72xx_buf.cpp
 CXX_SRCS += lib/matrix/MD_MAX72xx_font.cpp
