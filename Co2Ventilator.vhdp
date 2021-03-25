@@ -21,14 +21,14 @@ Main
     NIOSDuino_Processor_spi_MOSI      : OUT STD_LOGIC;
     NIOSDuino_Processor_spi_SCLK      : OUT STD_LOGIC;
     
-    NIOSDuino_Processor_i2c_scl_pull  : OUT STD_LOGIC := '1';
-    NIOSDuino_Processor_i2c_sda_pull  : OUT STD_LOGIC := '1';
-    NIOSDuino_Processor_i2c_select    : OUT STD_LOGIC := '0';
+    NIOSDuino_Processor_i2c_sda_pull  : OUT STD_LOGIC;
+    NIOSDuino_Processor_i2c_scl_pull  : OUT STD_LOGIC;
+    NIOSDuino_Processor_i2c_sel  : OUT STD_LOGIC;
 )
 {
     NIOSDuino_Processor_i2c_scl_pull <= '1';
     NIOSDuino_Processor_i2c_sda_pull <= '1';
-    NIOSDuino_Processor_i2c_select <= '0';
+    NIOSDuino_Processor_i2c_sel <= '0';
     
     NewComponent NIOSDuino_Processor
     (

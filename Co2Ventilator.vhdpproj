@@ -216,66 +216,6 @@
           <Items xsi:type="ProjectFile">
             <Header>MD_MAX72xx_pix.cpp</Header>
           </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_PZone.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola.h</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Blinds.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Close.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Diag.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Dissolve.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Fade.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Grow.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_HScroll.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Mesh.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Open.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Print.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Random.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Scan.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Slice.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Sprite.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_VScroll.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_Wipe.cpp</Header>
-          </Items>
-          <Items xsi:type="ProjectFile">
-            <Header>MD_Parola_lib.h</Header>
-          </Items>
         </Items>
       </Items>
       <Items xsi:type="ProjectFile">
@@ -296,6 +236,6 @@
     <string xsi:nil="true" />
   </CruviLSExtensions>
   <IOVoltage>0</IOVoltage>
-  <SoftwareStartPathRelative>Software/NIOSDuino</SoftwareStartPathRelative>
+  <SoftwareStartPathRelative>Software\NIOSDuino</SoftwareStartPathRelative>
   <UseShield>false</UseShield>
 </ProjectRoot>

@@ -168,24 +168,6 @@ CXX_SRCS += lib/matrix/MD_MAX72xx.cpp
 CXX_SRCS += lib/matrix/MD_MAX72xx_buf.cpp
 CXX_SRCS += lib/matrix/MD_MAX72xx_font.cpp
 CXX_SRCS += lib/matrix/MD_MAX72xx_pix.cpp
-CXX_SRCS += lib/matrix/MD_PZone.cpp
-CXX_SRCS += lib/matrix/MD_Parola.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Blinds.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Close.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Diag.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Dissolve.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Fade.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Grow.cpp
-CXX_SRCS += lib/matrix/MD_Parola_HScroll.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Mesh.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Open.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Print.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Random.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Scan.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Slice.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Sprite.cpp
-CXX_SRCS += lib/matrix/MD_Parola_VScroll.cpp
-CXX_SRCS += lib/matrix/MD_Parola_Wipe.cpp
 ASM_SRCS :=
 
 

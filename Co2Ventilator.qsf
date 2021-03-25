@@ -27,6 +27,10 @@ set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tc
 set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
 set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
 set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
 set_global_assignment -name NUM_PARALLEL_PROCESSORS 12
 set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE"
 set_global_assignment -name VHDL_FILE Generated/Co2Ventilator.vhd
@@ -87,6 +91,6 @@ set_location_assignment PIN_H10 -to NIOSDuino_Processor_i2c_scl
 set_location_assignment PIN_G13 -to NIOSDuino_Processor_i2c_scl_pull
 set_location_assignment PIN_J10 -to NIOSDuino_Processor_i2c_sda
 set_location_assignment PIN_B11 -to NIOSDuino_Processor_i2c_sda_pull
-set_location_assignment PIN_K12 -to NIOSDuino_Processor_i2c_select
 set_location_assignment PIN_A4 -to NIOSDuino_Processor_uart_rxd
 set_location_assignment PIN_B4 -to NIOSDuino_Processor_uart_txd
+set_location_assignment PIN_K12 -to NIOSDuino_Processor_i2c_sel
