@@ -31,7 +31,7 @@ MAKEABLE_LIBRARY_ROOT_DIRS :=
 # Generic flags passed to the compiler for different types of input files.
 ALT_CFLAGS :=
 ALT_CXXFLAGS := -std=gnu++11
-ALT_CPPFLAGS := -D__AVR__ -DARDUINO=185 -ffunction-sections
+ALT_CPPFLAGS := -D__AVR__ -DARDUINO=185 -ffunction-sections -DDEBUG
 ALT_ASFLAGS :=
 ALT_LDFLAGS := -Wl,--gc-sections
 

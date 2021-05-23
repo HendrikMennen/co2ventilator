@@ -88,7 +88,7 @@ void loop(void)
     scd30.read();
     
     char message[32];
-    float correctTemp = roundf(scd30.temp_value() * 10) / 10.0 - 12; //Rouned to 1 fractional and reduces by 12 device heat
+    float correctTemp = roundf(scd30.temp_value() * 10) / 10.0 - 11; //Rouned to 1 fractional and reduces by 12 device heat
     sprintf(message, "%.1fC", (float)correctTemp);
     printText(0, MAX_DEVICES-1, message);
     
