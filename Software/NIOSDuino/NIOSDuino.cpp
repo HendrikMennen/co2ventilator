@@ -74,7 +74,7 @@ void printText(uint8_t modStart, uint8_t modEnd, char *pMsg)
 
 void setup(void)
 {
-    Serial0.begin(9600);
+    Serial.begin(9600);
     mx.begin();
     scd30.begin();
     
@@ -88,14 +88,16 @@ void loop(void)
     scd30.read();
     
     char message[32];
-    sprintf(message, "%d", (int)scd30.co2_value());   
+    float correctTemp = roundf(scd30.temp_value() * 10) / 10.0 - 12; //Rouned to 1 fractional and reduces by 12 device heat
+    sprintf(message, "%.1fC", (float)correctTemp);
     printText(0, MAX_DEVICES-1, message);
     
-    if(scd30.co2_value() > 1000)
+    if(correctTemp > 20)
         digitalWrite(A3, HIGH); //Turn on ventilator
     else
         digitalWrite(A3, LOW);//Turn off ventilator
     
+    //Serial.println(message);
     delay(500);
 }
 

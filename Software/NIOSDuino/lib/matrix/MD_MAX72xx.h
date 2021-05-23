@@ -851,7 +851,7 @@ public:
    *
    * \param buf   address of the display [0..getDeviceCount()-1].
    * \param c     column which is to be set [0..COL_SIZE-1].
-   * \param value each bit set to 1 will light up the	corresponding LED.
+   * \param value each bit set to 1 will light up the   corresponding LED.
    * \return false if parameter errors, true otherwise.
    */
   bool setColumn(uint8_t buf, uint8_t c, uint8_t value);

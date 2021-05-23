@@ -1,5 +1,6 @@
 Main
 (
+    LED : OUT STD_LOGIC := '0';
     NIOSDuino_Processor_Reset         : IN STD_LOGIC := '0';
     NIOSDuino_Processor_sdram_addr    : OUT STD_LOGIC_VECTOR (11 downto 0);
     NIOSDuino_Processor_sdram_ba      : OUT STD_LOGIC_VECTOR (1 downto 0);
@@ -53,4 +54,15 @@ Main
         spi_MOSI      =>NIOSDuino_Processor_spi_MOSI,
         spi_SCLK      =>NIOSDuino_Processor_spi_SCLK,
     );
+    
+    Process ()
+    {
+        Thread
+        {
+            LED <= '0';
+            Wait(1s);
+            LED <= '1';
+            Wait(1s);
+        }
+    }
 }

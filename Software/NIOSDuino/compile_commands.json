@@ -12,6 +12,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "NIOSDuino.cpp"
@@ -31,6 +33,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Adafruit_Sensor.h"
@@ -50,6 +54,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Arduino.h"
@@ -69,6 +75,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Client.h"
@@ -88,6 +96,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/EEPROM.h"
@@ -107,6 +117,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/GenericSerial.cpp"
@@ -126,6 +138,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/GenericSerial.h"
@@ -145,6 +159,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/HardwareSerial.cpp"
@@ -164,6 +180,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/HardwareSerial.h"
@@ -183,6 +201,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/HardwareSerial0.cpp"
@@ -202,6 +222,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/HardwareSerial1.cpp"
@@ -221,6 +243,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/HardwareSerial2.cpp"
@@ -240,6 +264,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/HardwareSerial3.cpp"
@@ -259,6 +285,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/IPAddress.cpp"
@@ -278,6 +306,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/IPAddress.h"
@@ -297,6 +327,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Print.cpp"
@@ -316,6 +348,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Print.h"
@@ -335,6 +369,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Printable.h"
@@ -354,6 +390,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/SPIFlash.cpp"
@@ -373,6 +411,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/SPIFlash.h"
@@ -392,6 +432,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Server.h"
@@ -411,6 +453,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Stream.cpp"
@@ -430,6 +474,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Stream.h"
@@ -449,6 +495,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Udp.h"
@@ -468,6 +516,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/WCharacter.h"
@@ -487,6 +537,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/WMath.cpp"
@@ -506,6 +558,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/WString.cpp"
@@ -525,6 +579,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/WString.h"
@@ -544,6 +600,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/avalon_pwm_regs.h"
@@ -563,6 +621,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/binary.h"
@@ -582,6 +642,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/main.cpp"
@@ -601,6 +663,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/pins_arduino.h"
@@ -620,6 +684,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/wiring_analog.cpp"
@@ -639,6 +705,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/wiring_digital.cpp"
@@ -658,6 +726,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/wiring_pulse.c"
@@ -677,6 +747,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/wiring_shift.c"
@@ -696,6 +768,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/SPI/src/SPI.cpp"
@@ -715,6 +789,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/SPI/src/SPI.h"
@@ -734,6 +810,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Wire/src/Wire.cpp"
@@ -753,6 +831,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/Wire/src/Wire.h"
@@ -772,6 +852,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/avr/eeprom.c"
@@ -791,6 +873,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/avr/eeprom.h"
@@ -810,6 +894,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/avr/interrupt.h"
@@ -829,6 +915,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/avr/io.h"
@@ -848,6 +936,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "arduino/avr/pgmspace.h"
@@ -867,6 +957,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "lib/SCD30/scd30.cpp"
@@ -886,6 +978,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "lib/SCD30/scd30.h"
@@ -905,6 +999,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "lib/matrix/MD_MAX72xx.cpp"
@@ -924,6 +1020,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "lib/matrix/MD_MAX72xx.h"
@@ -943,6 +1041,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "lib/matrix/MD_MAX72xx_buf.cpp"
@@ -962,6 +1062,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "lib/matrix/MD_MAX72xx_font.cpp"
@@ -981,6 +1083,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "lib/matrix/MD_MAX72xx_lib.h"
@@ -1000,6 +1104,8 @@
       "-D__AVR__",
       "-D__STDC__",
       "-DARDUINO=185",
+      "-D__builtin_ldwio(a)=0",
+      "-D__builtin_stwio(a,b)=0",
       "-xc++",
       "-std=gnu++11",
       "lib/matrix/MD_MAX72xx_pix.cpp"
