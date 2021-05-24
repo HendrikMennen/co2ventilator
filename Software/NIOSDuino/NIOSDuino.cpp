@@ -86,7 +86,6 @@ void printScale(uint8_t modStart, uint8_t modEnd, int value, int column)
 
 void setup(void)
 {
-    Serial0.begin(9600);
     mx.begin();
     scd30.begin();
     
@@ -100,14 +99,12 @@ void loop(void)
     scd30.read();
     
     char message[32];
-    float correctTemp = roundf(scd30.temp_value() * 10) / 10.0 - 9  ; //Rouned to 1 fractional and reduces by 12 device heat
-    sprintf(message, "%.1fC", (float)correctTemp);
+    float correctTemp = roundf(scd30.temp_value() * 10) / 10.0 - 9; //Rouned to 1 fractional and reduces by 12 device heat
+    sprintf(message, "%.1fC", correctTemp);
     printText(0, MAX_DEVICES-1, message);
     
     int co2Scale = scd30.co2_value() / 2000 * 8;
     int humScale = scd30.hum_value() / 100 * 8;
-    
-    Serial0.println(scd30.hum_value());
     
     printScale(0, MAX_DEVICES-1, co2Scale, 0);
     printScale(0, MAX_DEVICES-1, humScale, 1);
