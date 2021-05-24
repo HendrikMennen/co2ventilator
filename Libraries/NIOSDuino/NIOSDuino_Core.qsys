@@ -715,8 +715,8 @@
   <parameter name="SECTOR_ACCESS_MODE">Read and write,Read and write,Read and write,Read and write,Read and write</parameter>
   <parameter name="autoInitializationFileName">$${FILENAME}_onchip_flash_0</parameter>
   <parameter name="initFlashContent" value="true" />
-  <parameter name="initializationFileName">C:/Users/Hendrik Mennen/Documents/VHDPlus/Projects/co2ventilator/Software/NIOSDuino/mem_init/NIOSDuino_Core_onchip_flash_0.hex</parameter>
-  <parameter name="initializationFileNameForSim">altera_onchip_flash.dat</parameter>
+  <parameter name="initializationFileName">Software/NIOSDuino/mem_init/NIOSDuino_Core_onchip_flash_0.hex</parameter>
+  <parameter name="initializationFileNameForSim">Software/NIOSDuino/mem_init/altera_onchip_flash.dat</parameter>
   <parameter name="useNonDefaultInitFile" value="true" />
  </module>
  <module

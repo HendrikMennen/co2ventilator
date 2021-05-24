@@ -7,9 +7,11 @@ db/
 ## ModelSim
 Modelsim/
 
+
 ## Quartus specific.
 ## *.qsf
 ## *.qpf
+.qsys_edit/
 
 ## ISSP
 Libraries/ISSP
