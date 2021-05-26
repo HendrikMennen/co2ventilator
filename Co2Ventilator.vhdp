@@ -1,6 +1,6 @@
 Main
 (
-    LED : OUT STD_LOGIC := '0';
+    LED : OUT STD_LOGIC_Vector (7 downto 0) := "00000000";
     NIOSDuino_Processor_Reset         : IN STD_LOGIC := '0';
     NIOSDuino_Processor_sdram_addr    : OUT STD_LOGIC_VECTOR (11 downto 0);
     NIOSDuino_Processor_sdram_ba      : OUT STD_LOGIC_VECTOR (1 downto 0);
@@ -59,9 +59,9 @@ Main
     {
         Thread
         {
-            LED <= '0';
+            LED <= "10101010";
             Wait(1s);
-            LED <= '1';
+            LED <= "01010101";
             Wait(1s);
         }
     }

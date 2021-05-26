@@ -12,6 +12,8 @@ Modelsim/
 ## *.qsf
 ## *.qpf
 .qsys_edit/
+NIOSDuino_Core/
+synthesis/
 
 ## ISSP
 Libraries/ISSP

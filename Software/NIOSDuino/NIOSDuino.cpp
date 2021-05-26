@@ -86,6 +86,7 @@ void printScale(uint8_t modStart, uint8_t modEnd, int value, int column)
 
 void setup(void)
 {
+    Serial0.begin(9600);
     mx.begin();
     scd30.begin();
     
@@ -114,7 +115,7 @@ void loop(void)
     else
         digitalWrite(A3, LOW);//Turn off ventilator
     
-    //Serial.println(message);
+    Serial0.println(message);
     delay(500);
 }
 

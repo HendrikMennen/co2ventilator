@@ -2,7 +2,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -23,7 +23,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -44,7 +44,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -65,7 +65,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -86,7 +86,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -107,7 +107,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -128,7 +128,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -149,7 +149,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -170,7 +170,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -191,7 +191,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -212,7 +212,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -233,7 +233,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -254,7 +254,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -275,7 +275,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -296,7 +296,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -317,7 +317,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -338,7 +338,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -359,7 +359,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -380,7 +380,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -401,7 +401,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -422,7 +422,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -443,7 +443,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -464,7 +464,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -485,7 +485,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -506,7 +506,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -527,7 +527,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -548,7 +548,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -569,7 +569,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -590,7 +590,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -611,7 +611,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -632,7 +632,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -653,7 +653,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -674,7 +674,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -695,7 +695,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -716,7 +716,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -737,7 +737,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -758,7 +758,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -779,7 +779,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -800,7 +800,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -821,7 +821,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -842,7 +842,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -863,7 +863,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -884,7 +884,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -905,7 +905,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -926,7 +926,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -947,7 +947,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -968,7 +968,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -989,7 +989,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1010,7 +1010,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1031,7 +1031,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1052,7 +1052,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1073,7 +1073,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
@@ -1094,7 +1094,7 @@
   {
     "directory": "C:\\Users\\HendrikMennen\\Documents\\VHDPlus\\Projects\\Co2Ventilator\\Software\\NIOSDuino",
     "arguments": [
-      "C:\\intelFPGA_lite\\18.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
+      "C:\\intelFPGA_lite\\20.1\\nios2eds\\bin\\gnu\\H-x86_64-mingw32\\bin\\nios2-elf-gcc.exe",
       "-Iarduino",
       "-Iarduino/Wire/src",
       "-Iarduino/SPI/src",
