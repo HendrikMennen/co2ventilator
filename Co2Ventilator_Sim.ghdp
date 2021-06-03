@@ -1,0 +1,95 @@
+Component Co2Ventilator_tb()
+{
+    SIGNAL finished : STD_LOGIC:= '0';
+    CONSTANT period_time : TIME := 83333 ps;
+
+    Process Sim_finished()
+    {
+        wait for 100000 us;
+        finished <= '1';
+        wait;
+    }
+
+    NewComponent Co2Ventilator
+    (
+        LED => LED,
+        BUTTON => BUTTON,
+        NIOSDuino_Processor_Reset => NIOSDuino_Processor_Reset,
+        NIOSDuino_Processor_sdram_addr => NIOSDuino_Processor_sdram_addr,
+        NIOSDuino_Processor_sdram_ba => NIOSDuino_Processor_sdram_ba,
+        NIOSDuino_Processor_sdram_cas_n => NIOSDuino_Processor_sdram_cas_n,
+        NIOSDuino_Processor_sdram_cke => NIOSDuino_Processor_sdram_cke,
+        NIOSDuino_Processor_sdram_cs_n => NIOSDuino_Processor_sdram_cs_n,
+        NIOSDuino_Processor_sdram_dq => NIOSDuino_Processor_sdram_dq,
+        NIOSDuino_Processor_sdram_dqm => NIOSDuino_Processor_sdram_dqm,
+        NIOSDuino_Processor_sdram_ras_n => NIOSDuino_Processor_sdram_ras_n,
+        NIOSDuino_Processor_sdram_we_n => NIOSDuino_Processor_sdram_we_n,
+        NIOSDuino_Processor_sdram_clk_clk => NIOSDuino_Processor_sdram_clk_clk,
+        NIOSDuino_Processor_pio_export => NIOSDuino_Processor_pio_export,
+        NIOSDuino_Processor_pwm_out => NIOSDuino_Processor_pwm_out,
+        NIOSDuino_Processor_uart_rxd => NIOSDuino_Processor_uart_rxd,
+        NIOSDuino_Processor_uart_txd => NIOSDuino_Processor_uart_txd,
+        NIOSDuino_Processor_i2c_sda => NIOSDuino_Processor_i2c_sda,
+        NIOSDuino_Processor_i2c_scl => NIOSDuino_Processor_i2c_scl,
+        NIOSDuino_Processor_spi_MISO => NIOSDuino_Processor_spi_MISO,
+        NIOSDuino_Processor_spi_MOSI => NIOSDuino_Processor_spi_MOSI,
+        NIOSDuino_Processor_spi_SCLK => NIOSDuino_Processor_spi_SCLK,
+        NIOSDuino_Processor_i2c_sda_pull => NIOSDuino_Processor_i2c_sda_pull,
+        NIOSDuino_Processor_i2c_scl_pull => NIOSDuino_Processor_i2c_scl_pull,
+        NIOSDuino_Processor_i2c_sel => NIOSDuino_Processor_i2c_sel,
+        CLK => CLK,
+    );
+
+    SIGNAL LED : STD_LOGIC_Vector (7 downto 0) := "00000000";
+    SIGNAL BUTTON : STD_LOGIC  := '0';
+    SIGNAL NIOSDuino_Processor_Reset : STD_LOGIC  := '0';
+    SIGNAL NIOSDuino_Processor_sdram_addr : STD_LOGIC_VECTOR (11 downto 0);
+    SIGNAL NIOSDuino_Processor_sdram_ba : STD_LOGIC_VECTOR (1 downto 0);
+    SIGNAL NIOSDuino_Processor_sdram_cas_n : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_sdram_cke : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_sdram_cs_n : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_sdram_dq : STD_LOGIC_VECTOR (15 downto 0) := (others => 'X');
+    SIGNAL NIOSDuino_Processor_sdram_dqm : STD_LOGIC_VECTOR (1 downto 0);
+    SIGNAL NIOSDuino_Processor_sdram_ras_n : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_sdram_we_n : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_sdram_clk_clk : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_pio_export : STD_LOGIC_VECTOR (31 downto 0) := (others => 'X');
+    SIGNAL NIOSDuino_Processor_pwm_out : STD_LOGIC_VECTOR (3 downto 0);
+    SIGNAL NIOSDuino_Processor_uart_rxd : STD_LOGIC  := 'X';
+    SIGNAL NIOSDuino_Processor_uart_txd : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_i2c_sda : STD_LOGIC  := 'Z';
+    SIGNAL NIOSDuino_Processor_i2c_scl : STD_LOGIC  := 'Z';
+    SIGNAL NIOSDuino_Processor_spi_MISO : STD_LOGIC  := 'X';
+    SIGNAL NIOSDuino_Processor_spi_MOSI : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_spi_SCLK : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_i2c_sda_pull : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_i2c_scl_pull : STD_LOGIC ;
+    SIGNAL NIOSDuino_Processor_i2c_sel : STD_LOGIC ;
+    SIGNAL CLK : STD_LOGIC := '0';
+
+
+    Process Sim_BUTTON()
+    {
+        While(finished /= '1')
+        {
+            BUTTON <= '0';
+            wait for 50 ms;
+            BUTTON <= '1';
+            wait for 50 ms;
+            wait;
+        }
+        wait;
+    }
+
+    Process Sim_CLK()
+    {
+        While(finished /= '1')
+        {
+            CLK <= '0';
+            wait for period_time/2;
+            CLK <= '1';
+            wait for period_time/2;
+        }
+        wait;
+    }
+}

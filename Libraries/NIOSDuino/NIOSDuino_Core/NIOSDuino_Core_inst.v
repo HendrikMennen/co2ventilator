@@ -4,6 +4,7 @@
 		.i2c_scl_in    (<connected-to-i2c_scl_in>),    //          .scl_in
 		.i2c_sda_oe    (<connected-to-i2c_sda_oe>),    //          .sda_oe
 		.i2c_scl_oe    (<connected-to-i2c_scl_oe>),    //          .scl_oe
+		.pi_export     (<connected-to-pi_export>),     //        pi.export
 		.pio_export    (<connected-to-pio_export>),    //       pio.export
 		.pwm_out       (<connected-to-pwm_out>),       //       pwm.out
 		.reset_reset_n (<connected-to-reset_reset_n>), //     reset.reset_n

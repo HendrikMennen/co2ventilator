@@ -1,7 +1,12 @@
 Main
 (
     LED : OUT STD_LOGIC_Vector (7 downto 0) := "00000000";
-    NIOSDuino_Processor_Reset         : IN STD_LOGIC := '0';
+    BUTTON : IN STD_LOGIC := '0';
+    
+    NIOSDuino_Processor_i2c_sda_pull  : OUT STD_LOGIC;
+    NIOSDuino_Processor_i2c_scl_pull  : OUT STD_LOGIC;
+    NIOSDuino_Processor_i2c_sel  : OUT STD_LOGIC;
+    NIOSDuino_Processor_Reset         : IN STD_LOGIC := '1';
     NIOSDuino_Processor_sdram_addr    : OUT STD_LOGIC_VECTOR (11 downto 0);
     NIOSDuino_Processor_sdram_ba      : OUT STD_LOGIC_VECTOR (1 downto 0);
     NIOSDuino_Processor_sdram_cas_n   : OUT STD_LOGIC;
@@ -21,15 +26,27 @@ Main
     NIOSDuino_Processor_spi_MISO      : IN STD_LOGIC := 'X';
     NIOSDuino_Processor_spi_MOSI      : OUT STD_LOGIC;
     NIOSDuino_Processor_spi_SCLK      : OUT STD_LOGIC;
-    
-    NIOSDuino_Processor_i2c_sda_pull  : OUT STD_LOGIC;
-    NIOSDuino_Processor_i2c_scl_pull  : OUT STD_LOGIC;
-    NIOSDuino_Processor_i2c_sel  : OUT STD_LOGIC;
 )
 {
+    SIGNAL NIOSDuino_Processor_pi_export     : STD_LOGIC_VECTOR (15 downto 0) := (others => '0');
+    
     NIOSDuino_Processor_i2c_scl_pull <= '1';
     NIOSDuino_Processor_i2c_sda_pull <= '1';
     NIOSDuino_Processor_i2c_sel <= '0';
+    
+    
+    SIGNAL Input_Debouncer_Inputs       : STD_LOGIC_VECTOR (1-1 downto 0) := (others => '0');
+    SIGNAL Input_Debouncer_Outputs      : STD_LOGIC_VECTOR (1-1 downto 0) := (others => '0');
+    NewComponent Input_Debouncer
+    (
+        Counter_Size => 19,
+        Input_Number => 1,
+
+        Inputs       => Input_Debouncer_Inputs,
+        Outputs      => Input_Debouncer_Outputs,
+    );
+    
+    Input_Debouncer_Inputs(0) <= BUTTON;
     
     NewComponent NIOSDuino_Processor
     (
@@ -45,6 +62,7 @@ Main
         sdram_we_n    =>NIOSDuino_Processor_sdram_we_n,
         sdram_clk_clk =>NIOSDuino_Processor_sdram_clk_clk,
         pio_export    =>NIOSDuino_Processor_pio_export,
+        pi_export     =>NIOSDuino_Processor_pi_export,
         pwm_out       =>NIOSDuino_Processor_pwm_out,
         uart_rxd      =>NIOSDuino_Processor_uart_rxd,
         uart_txd      =>NIOSDuino_Processor_uart_txd,
@@ -54,15 +72,37 @@ Main
         spi_MOSI      =>NIOSDuino_Processor_spi_MOSI,
         spi_SCLK      =>NIOSDuino_Processor_spi_SCLK,
     );
-    
     Process ()
     {
+        VARIABLE LastState : STD_LOGIC := '0';
+        
+        If(Input_Debouncer_Outputs(0) = '1' AND LastState /= Input_Debouncer_Outputs(0))
+        {
+            LastState := '1';
+            NIOSDuino_Processor_pi_export(0) <= NOT NIOSDuino_Processor_pi_export(0);
+        }
+        else
+        {
+            LastState := Input_Debouncer_Outputs(0);
+        }
+        
         Thread
         {
-            LED <= "10101010";
-            Wait(1s);
-            LED <= "01010101";
-            Wait(1s);
+            if(NIOSDuino_Processor_pi_export(0) = '1')
+            {
+                LED <= "10101010";
+                Wait(1s);
+                LED <= "01010101";
+                Wait(1s);
+            }
+        }
+        
+        Thread
+        {
+            if(NIOSDuino_Processor_pi_export(0) = '0') 
+            {
+                LED <= "00000000";
+            }
         }
     }
 }

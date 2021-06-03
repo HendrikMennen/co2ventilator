@@ -5,6 +5,7 @@ module NIOSDuino_Core (
 	i2c_scl_in,
 	i2c_sda_oe,
 	i2c_scl_oe,
+	pi_export,
 	pio_export,
 	pwm_out,
 	reset_reset_n,
@@ -30,6 +31,7 @@ module NIOSDuino_Core (
 	input		i2c_scl_in;
 	output		i2c_sda_oe;
 	output		i2c_scl_oe;
+	input	[15:0]	pi_export;
 	inout	[31:0]	pio_export;
 	output	[31:0]	pwm_out;
 	input		reset_reset_n;

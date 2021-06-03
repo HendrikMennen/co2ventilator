@@ -49,7 +49,7 @@
 Component NIOSDuino_Processor
 (
     --NIOSDuino Onboard
-    Reset                      : IN    STD_LOGIC := '0';
+    Reset                      : IN    STD_LOGIC := '1';
     sdram_addr                 : OUT   STD_LOGIC_VECTOR(11 downto 0);
     sdram_ba                   : OUT   STD_LOGIC_VECTOR(1 downto 0);
     sdram_cas_n                : OUT   STD_LOGIC;
@@ -62,6 +62,7 @@ Component NIOSDuino_Processor
     sdram_clk_clk              : OUT   STD_LOGIC;
     --NIOSDuino External
     pio_export                 : INOUT STD_LOGIC_VECTOR(31 downto 0) := (others => 'X');
+    pi_export                  : IN    STD_LOGIC_VECTOR(15 downto 0) := (others => 'X');
     pwm_out                    : OUT   STD_LOGIC_VECTOR(3 downto 0);
     uart_rxd                   : IN    STD_LOGIC := 'X';
     uart_txd                   : OUT   STD_LOGIC;
@@ -151,6 +152,7 @@ Component NIOSDuino_Processor
                 i2c_sda_oe            : out   std_logic;                                        --               .sda_oe
                 i2c_scl_oe            : out   std_logic;                                        --               .scl_oe
                 pio_export            : inout std_logic_vector(31 downto 0) := (others => '0'); --        pio_led.export
+                pi_export             : in    std_logic_vector(15 downto 0) := (others => '0'); --        pio_led.export
                 reset_reset_n         : in    std_logic                     := '1';             --          reset.reset_n
                 sdram_addr            : out   std_logic_vector(11 downto 0);                    --          sdram.addr
                 sdram_ba              : out   std_logic_vector(1 downto 0);                     --               .ba
@@ -183,6 +185,7 @@ Component NIOSDuino_Processor
             i2c_sda_oe            => i2c_sda_oe,
             i2c_scl_oe            => i2c_scl_oe,
             pio_export            => pio_export,
+            pi_export             => pi_export,
             reset_reset_n         => reset_reset_n,
             sdram_addr            => sdram_addr,
             sdram_ba              => sdram_ba,

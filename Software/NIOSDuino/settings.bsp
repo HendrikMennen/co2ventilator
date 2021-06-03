@@ -2,10 +2,10 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>May 26, 2021 3:34:02 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1622036042795</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Jun 3, 2021 2:55:58 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1622724958563</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>generated_bsp\</BspGeneratedLocation>
-        <BspSettingsFile>settings.bsp</BspSettingsFile>
+        <BspSettingsFile>C:\Users\HendrikMennen\Documents\VHDPlus\Projects\Co2Ventilator\Software\NIOSDuino\settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\NIOSDuino_Core.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_qsys_0</Cpu>
@@ -926,6 +926,12 @@
                 <slaveDescriptor>pwm_0</slaveDescriptor>
                 <addressRange>0x00000000 - 0x000000FF</addressRange>
                 <addressSpan>256</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>pio_1</slaveDescriptor>
+                <addressRange>0x00000100 - 0x0000010F</addressRange>
+                <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>

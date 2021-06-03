@@ -134,11 +134,15 @@ void loop(void)
     delay(500);
     
     //Button   
-    int buttonState = digitalRead(A7);
+    int buttonState = digitalRead(32);
     
     if(buttonState == HIGH)
     {
-        running = !running;
+        running = true;
+    }
+    else
+    {
+        running = false;
     }
 }
 

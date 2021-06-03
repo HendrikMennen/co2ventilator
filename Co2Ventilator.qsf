@@ -37,9 +37,28 @@ set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tc
 set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
 set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
 set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
+set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
 set_global_assignment -name NUM_PARALLEL_PROCESSORS 12
-set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE COMP IMAGE"
+set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE"
 set_global_assignment -name VHDL_FILE Generated/Co2Ventilator.vhd
+set_global_assignment -name VHDL_FILE Generated/Input_Debouncer.vhd
 set_global_assignment -name VHDL_FILE Generated/NIOSDuino_Processor.vhd
 set_global_assignment -name QSYS_FILE Libraries/NIOSDuino/NIOSDuino_Core.qsys
 set_global_assignment -name VERILOG_FILE Libraries/NIOSDuino/avalon_pwm.v
@@ -62,8 +81,6 @@ set_location_assignment PIN_M10 -to NIOSDuino_Processor_sdram_addr[11]
 set_location_assignment PIN_N6 -to NIOSDuino_Processor_sdram_ba[0]
 set_location_assignment PIN_K8 -to NIOSDuino_Processor_sdram_ba[1]
 set_location_assignment PIN_N7 -to NIOSDuino_Processor_sdram_cas_n
-set_location_assignment PIN_M4 -to NIOSDuino_Processor_sdram_cs_n
-set_location_assignment PIN_M8 -to NIOSDuino_Processor_sdram_cke
 set_location_assignment PIN_M9 -to NIOSDuino_Processor_sdram_clk_clk
 set_location_assignment PIN_M7 -to NIOSDuino_Processor_sdram_ras_n
 set_location_assignment PIN_K7 -to NIOSDuino_Processor_sdram_we_n
@@ -92,7 +109,6 @@ set_location_assignment PIN_M3 -to NIOSDuino_Processor_pio_export[17]
 set_location_assignment PIN_K1 -to NIOSDuino_Processor_pio_export[18]
 set_location_assignment PIN_K2 -to NIOSDuino_Processor_pio_export[19]
 set_location_assignment PIN_N2 -to NIOSDuino_Processor_pio_export[20]
-set_location_assignment PIN_N3 -to NIOSDuino_Processor_pio_export[21]
 set_location_assignment PIN_H10 -to NIOSDuino_Processor_i2c_scl
 set_location_assignment PIN_J10 -to NIOSDuino_Processor_i2c_sda
 set_location_assignment PIN_A4 -to NIOSDuino_Processor_uart_rxd
@@ -108,3 +124,6 @@ set_location_assignment PIN_A9 -to LED[6]
 set_location_assignment PIN_A8 -to LED[7]
 set_location_assignment PIN_B11 -to NIOSDuino_Processor_i2c_scl_pull
 set_location_assignment PIN_G13 -to NIOSDuino_Processor_i2c_sda_pull
+set_location_assignment PIN_N3 -to BUTTON
+set_location_assignment PIN_M4 -to NIOSDuino_Processor_sdram_cs_n
+set_location_assignment PIN_M8 -to NIOSDuino_Processor_sdram_cke

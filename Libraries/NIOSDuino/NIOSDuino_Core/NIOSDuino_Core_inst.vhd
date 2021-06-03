@@ -5,6 +5,7 @@
 			i2c_scl_in    : in    std_logic                     := 'X';             -- scl_in
 			i2c_sda_oe    : out   std_logic;                                        -- sda_oe
 			i2c_scl_oe    : out   std_logic;                                        -- scl_oe
+			pi_export     : in    std_logic_vector(15 downto 0) := (others => 'X'); -- export
 			pio_export    : inout std_logic_vector(31 downto 0) := (others => 'X'); -- export
 			pwm_out       : out   std_logic_vector(31 downto 0);                    -- out
 			reset_reset_n : in    std_logic                     := 'X';             -- reset_n
@@ -34,6 +35,7 @@
 			i2c_scl_in    => CONNECTED_TO_i2c_scl_in,    --          .scl_in
 			i2c_sda_oe    => CONNECTED_TO_i2c_sda_oe,    --          .sda_oe
 			i2c_scl_oe    => CONNECTED_TO_i2c_scl_oe,    --          .scl_oe
+			pi_export     => CONNECTED_TO_pi_export,     --        pi.export
 			pio_export    => CONNECTED_TO_pio_export,    --       pio.export
 			pwm_out       => CONNECTED_TO_pwm_out,       --       pwm.out
 			reset_reset_n => CONNECTED_TO_reset_reset_n, --     reset.reset_n
