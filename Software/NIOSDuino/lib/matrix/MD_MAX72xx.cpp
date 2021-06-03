@@ -261,7 +261,7 @@ void MD_MAX72XX::flushBufferAll()
 
     spiClearBuffer();
 
-    for (uint8_t dev = FIRST_BUFFER; dev <= LAST_BUFFER; dev++)	// all devices
+    for (uint8_t dev = FIRST_BUFFER; dev <= LAST_BUFFER; dev++) // all devices
     {
       if (bitRead(_matrix[dev].changed, i))
       {

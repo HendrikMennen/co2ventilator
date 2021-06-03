@@ -37,28 +37,28 @@
 void pinMode(uint8_t pin, uint8_t mode)
 {
 #if PIO_2_BASE && PIO_0_BASE
-	if (pin < 32) {
-		uint32_t data = IORD_ALTERA_AVALON_PIO_DIRECTION(PIO_0_BASE);
-		if (mode == OUTPUT) data |= (1 << pin);
-		else data &= ~(1 << pin);
-		IOWR_ALTERA_AVALON_PIO_DIRECTION(PIO_0_BASE, data);
-	}
-	else {
-		uint32_t data = IORD_ALTERA_AVALON_PIO_DIRECTION(PIO_2_BASE);
-		if (mode == OUTPUT) data |= (1 << (pin - 32));
-		else data &= ~(1 << (pin - 32));
-		IOWR_ALTERA_AVALON_PIO_DIRECTION(PIO_2_BASE, data);
-	}
+    if (pin < 32) {
+        uint32_t data = IORD_ALTERA_AVALON_PIO_DIRECTION(PIO_0_BASE);
+        if (mode == OUTPUT) data |= (1 << pin);
+        else data &= ~(1 << pin);
+        IOWR_ALTERA_AVALON_PIO_DIRECTION(PIO_0_BASE, data);
+    }
+    else {
+        uint32_t data = IORD_ALTERA_AVALON_PIO_DIRECTION(PIO_2_BASE);
+        if (mode == OUTPUT) data |= (1 << (pin - 32));
+        else data &= ~(1 << (pin - 32));
+        IOWR_ALTERA_AVALON_PIO_DIRECTION(PIO_2_BASE, data);
+    }
 #elif PIO_0_BASE
-	uint32_t data = IORD_ALTERA_AVALON_PIO_DIRECTION(PIO_0_BASE);
-	if (mode == OUTPUT) data |= (1 << pin);
-	else data &= ~(1 << pin);
-	IOWR_ALTERA_AVALON_PIO_DIRECTION(PIO_0_BASE, data);
+    uint32_t data = IORD_ALTERA_AVALON_PIO_DIRECTION(PIO_0_BASE);
+    if (mode == OUTPUT) data |= (1 << pin);
+    else data &= ~(1 << pin);
+    IOWR_ALTERA_AVALON_PIO_DIRECTION(PIO_0_BASE, data);
 #else 
-	uint32_t data = IORD_ALTERA_AVALON_PIO_DIRECTION(PIO_2_BASE);
-	if (mode == OUTPUT) data |= (1 << pin);
-	else data &= ~(1 << pin);
-	IOWR_ALTERA_AVALON_PIO_DIRECTION(PIO_2_BASE, data);
+    uint32_t data = IORD_ALTERA_AVALON_PIO_DIRECTION(PIO_2_BASE);
+    if (mode == OUTPUT) data |= (1 << pin);
+    else data &= ~(1 << pin);
+    IOWR_ALTERA_AVALON_PIO_DIRECTION(PIO_2_BASE, data);
 #endif
 }
 
@@ -69,17 +69,17 @@ void pinMode(uint8_t pin, uint8_t mode)
 void digitalWrite(uint8_t pin, uint8_t val)
 {
 #if PIO_2_BASE && PIO_0_BASE
-	if (pin < 32) {
-		if (val) IOWR_ALTERA_AVALON_PIO_SET_BITS(PIO_0_BASE, 1 << pin);
-		else IOWR_ALTERA_AVALON_PIO_CLEAR_BITS(PIO_0_BASE, 1 << pin);
-	}
-	else {
-		if (val) IOWR_ALTERA_AVALON_PIO_SET_BITS(PIO_2_BASE, 1 << (pin - 32));
-		else IOWR_ALTERA_AVALON_PIO_CLEAR_BITS(PIO_2_BASE, 1 << (pin - 32));
-	}
+    if (pin < 32) {
+        if (val) IOWR_ALTERA_AVALON_PIO_SET_BITS(PIO_0_BASE, 1 << pin);
+        else IOWR_ALTERA_AVALON_PIO_CLEAR_BITS(PIO_0_BASE, 1 << pin);
+    }
+    else {
+        if (val) IOWR_ALTERA_AVALON_PIO_SET_BITS(PIO_2_BASE, 1 << (pin - 32));
+        else IOWR_ALTERA_AVALON_PIO_CLEAR_BITS(PIO_2_BASE, 1 << (pin - 32));
+    }
 #elif PIO_0_BASE
-	if (val) IOWR_ALTERA_AVALON_PIO_SET_BITS(PIO_0_BASE, 1 << pin);
-	else IOWR_ALTERA_AVALON_PIO_CLEAR_BITS(PIO_0_BASE, 1 << pin);
+    if (val) IOWR_ALTERA_AVALON_PIO_SET_BITS(PIO_0_BASE, 1 << pin);
+    else IOWR_ALTERA_AVALON_PIO_CLEAR_BITS(PIO_0_BASE, 1 << pin);
 #else
 if (val) IOWR_ALTERA_AVALON_PIO_SET_BITS(PIO_2_BASE, 1 << pin);
 else IOWR_ALTERA_AVALON_PIO_CLEAR_BITS(PIO_2_BASE, 1 << pin);
@@ -93,20 +93,20 @@ else IOWR_ALTERA_AVALON_PIO_CLEAR_BITS(PIO_2_BASE, 1 << pin);
 int digitalRead(uint8_t pin)
 {
 #if PIO_1_BASE && PIO_0_BASE
-	if (pin < 32) {
-		uint32_t val = IORD_ALTERA_AVALON_PIO_DATA(PIO_0_BASE);
-		return (val >> pin) & 1;
-	}
-	else {
-		uint32_t val = IORD_ALTERA_AVALON_PIO_DATA(PIO_1_BASE);
-		return (val >> (pin - 32)) & 1;
-	}
+    if (pin < 32) {
+        uint32_t val = IORD_ALTERA_AVALON_PIO_DATA(PIO_0_BASE);
+        return (val >> pin) & 1;
+    }
+    else {
+        uint32_t val = IORD_ALTERA_AVALON_PIO_DATA(PIO_1_BASE);
+        return (val >> (pin - 32)) & 1;
+    }
 #elif PIO_0_BASE
-	uint32_t val = IORD_ALTERA_AVALON_PIO_DATA(PIO_0_BASE);
-	return (val >> pin) & 1;
+    uint32_t val = IORD_ALTERA_AVALON_PIO_DATA(PIO_0_BASE);
+    return (val >> pin) & 1;
 #else 
-	uint32_t val = IORD_ALTERA_AVALON_PIO_DATA(PIO_1_BASE);
-	return (val >> pin) & 1;
+    uint32_t val = IORD_ALTERA_AVALON_PIO_DATA(PIO_1_BASE);
+    return (val >> pin) & 1;
 #endif
 }
 #endif
