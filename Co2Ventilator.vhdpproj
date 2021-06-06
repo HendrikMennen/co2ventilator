@@ -245,6 +245,5 @@
     <string xsi:nil="true" />
   </CruviLSExtensions>
   <IOVoltage>0</IOVoltage>
-  <SoftwareStartPathRelative>Software\NIOSDuino</SoftwareStartPathRelative>
   <UseShield>false</UseShield>
 </ProjectRoot>

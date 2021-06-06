@@ -33,7 +33,7 @@ ALT_CFLAGS :=
 ALT_CXXFLAGS := -std=gnu++11
 ALT_CPPFLAGS := -D__AVR__ -DARDUINO=185 -ffunction-sections -DDEBUG
 ALT_ASFLAGS :=
-ALT_LDFLAGS := -Wl,--gc-sections
+ALT_LDFLAGS := -Wl --gc-sections
 
 
 #------------------------------------------------------------------------------
