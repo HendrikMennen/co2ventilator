@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jun 7, 2021 1:52:17 AM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1623023537669</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Jun 7, 2021 11:58:57 AM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1623059937966</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>generated_bsp\</BspGeneratedLocation>
         <BspSettingsFile>C:\Users\HendrikMennen\Documents\VHDPlus\Projects\Co2Ventilator\Software\NIOSDuino\settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\NIOSDuino_Core.sopcinfo</SopcDesignFile>

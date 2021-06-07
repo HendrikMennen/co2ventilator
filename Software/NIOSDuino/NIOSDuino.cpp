@@ -144,7 +144,6 @@ void setup(void)
     scd30.begin();
     
     pinMode(A3, OUTPUT);
-    pinMode(A7, INPUT);
 }
 
 void loop(void)
