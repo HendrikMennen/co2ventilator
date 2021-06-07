@@ -225,6 +225,9 @@
         </Items>
       </Items>
       <Items xsi:type="ProjectFile">
+        <Header>Makefile</Header>
+      </Items>
+      <Items xsi:type="ProjectFile">
         <Header>NIOSDuino.cpp</Header>
       </Items>
     </Items>
@@ -245,5 +248,6 @@
     <string xsi:nil="true" />
   </CruviLSExtensions>
   <IOVoltage>0</IOVoltage>
+  <SoftwareStartPathRelative>Software\NIOSDuino</SoftwareStartPathRelative>
   <UseShield>false</UseShield>
 </ProjectRoot>

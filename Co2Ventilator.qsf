@@ -70,7 +70,6 @@ set_location_assignment PIN_L3 -to NIOSDuino_Processor_pio_export[16]
 set_location_assignment PIN_M3 -to NIOSDuino_Processor_pio_export[17]
 set_location_assignment PIN_K1 -to NIOSDuino_Processor_pio_export[18]
 set_location_assignment PIN_K2 -to NIOSDuino_Processor_pio_export[19]
-set_location_assignment PIN_N2 -to NIOSDuino_Processor_pio_export[20]
 set_location_assignment PIN_H10 -to NIOSDuino_Processor_i2c_scl
 set_location_assignment PIN_J10 -to NIOSDuino_Processor_i2c_sda
 set_location_assignment PIN_A4 -to NIOSDuino_Processor_uart_rxd
@@ -89,3 +88,4 @@ set_location_assignment PIN_G13 -to NIOSDuino_Processor_i2c_sda_pull
 set_location_assignment PIN_N3 -to BUTTON
 set_location_assignment PIN_M4 -to NIOSDuino_Processor_sdram_cs_n
 set_location_assignment PIN_M8 -to NIOSDuino_Processor_sdram_cke
+set_location_assignment PIN_N2 -to BUTTON2

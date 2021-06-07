@@ -8,9 +8,15 @@
 #define MAX_DEVICES 4
 #define CHAR_SPACING  1 // pixels between characters
 
-MD_MAX72XX mx = MD_MAX72XX(HARDWARE_TYPE, A2, A0, A1, MAX_DEVICES);
+MD_MAX72XX mx = MD_MAX72XX(HARDWARE_TYPE, 16, 14, 15, MAX_DEVICES);
 
 SCD30 scd30;
+bool running = true;
+int timer = 0;
+int mode = 0;
+const int ventSwitch = 22;
+const bool miniBar = false;
+const bool autoMode = false;
 
 void printText(uint8_t modStart, uint8_t modEnd, char *pMsg)
 {
@@ -84,41 +90,101 @@ void printScale(uint8_t modStart, uint8_t modEnd, int value, int column)
     mx.control(modStart, modEnd, MD_MAX72XX::UPDATE, MD_MAX72XX::ON);
 }
 
+void readState()
+{
+    //State
+    int buttonState = digitalRead(32);
+    
+    if(buttonState == HIGH)
+    {
+        running = true;
+    }
+    else
+    {
+        running = false;
+    }
+    
+    //Mode
+    if(!autoMode)
+    {        
+        int mode1 = digitalRead(33);
+        int mode2 = digitalRead(34);
+        
+        if(mode1 == LOW && mode2 == LOW) //Mode 0
+        {
+            mode = 0;
+        }
+        else if(mode1 == HIGH && mode2 == LOW) //Mode 1
+        {
+            mode = 1;
+        }
+        else if(mode1 == HIGH && mode2 == HIGH) //Mode 2
+        {
+            mode = 2;
+        }
+    }
+    else
+    {
+        timer++;
+        if(timer > 10)
+        {
+            mode++;
+            if(mode > 2) mode = 0;
+            timer = 0;
+        }
+    }
+    
+}
+
 void setup(void)
 {
     Serial0.begin(9600);
     mx.begin();
+    mx.control(MD_MAX72XX::INTENSITY, 1);
     scd30.begin();
     
     pinMode(A3, OUTPUT);
     pinMode(A7, INPUT);
 }
 
-bool running = true;
-int timer = 0;
-
 void loop(void)
 {
-    scd30.read();
+    readState();
     
     if(running)
     {
+        scd30.read();
+        
         char message[32];
         float correctTemp = roundf(scd30.temp_value() * 10) / 10.0 - 9; //Rouned to 1 fractional and reduces by 12 device heat
-        sprintf(message, "%.1fC", correctTemp);
+        
+        if(mode == 0)
+        {
+            sprintf(message, "%.1fC", correctTemp);
+        }
+        else if(mode == 1)
+        {
+            sprintf(message, "%.fP", scd30.co2_value());
+        }
+        else if(mode == 2)
+        {
+            sprintf(message, "%.1f%%", scd30.hum_value());
+        }
+        
         printText(0, MAX_DEVICES-1, message);
         
-        int co2Scale = scd30.co2_value() / 2000 * 8;
-        int humScale = scd30.hum_value() / 100 * 8;
+        if(miniBar)
+        {
+            int co2Scale = scd30.co2_value() / 2000 * 8;
+            int humScale = scd30.hum_value() / 100 * 8;
+            int tempScale = scd30.temp_value() / ventSwitch * 8;
+            
+            printScale(0, MAX_DEVICES-1, co2Scale, 0);
+            printScale(0, MAX_DEVICES-1, humScale, 1);
+            printScale(0, MAX_DEVICES-1, tempScale, 2);
+        }
         
-        printScale(0, MAX_DEVICES-1, co2Scale, 0);
-        printScale(0, MAX_DEVICES-1, humScale, 1);
-        
-        mx.control(MD_MAX72XX::INTENSITY, 1);
-        
-        digitalRead(A7);
-        
-        if(correctTemp > 22)
+        if(correctTemp > ventSwitch)
             digitalWrite(A3, HIGH); //Turn on ventilator
         else
             digitalWrite(A3, LOW);//Turn off ventilator
@@ -131,18 +197,6 @@ void loop(void)
         mx.clear();
     }
     
-    delay(500);
-    
-    //Button   
-    int buttonState = digitalRead(32);
-    
-    if(buttonState == HIGH)
-    {
-        running = true;
-    }
-    else
-    {
-        running = false;
-    }
+    delay(100);
 }
 
