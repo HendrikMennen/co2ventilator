@@ -232,6 +232,9 @@
       </Items>
     </Items>
   </Items>
+  <Items xsi:type="ProjectFile">
+    <Header>Co2Ventilator.qsf</Header>
+  </Items>
   <Items xsi:type="ProjectFileVHDP">
     <Header>Co2Ventilator.vhdp</Header>
   </Items>

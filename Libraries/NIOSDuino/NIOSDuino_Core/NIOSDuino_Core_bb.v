@@ -19,19 +19,18 @@ module NIOSDuino_Core (
 	sdram_ras_n,
 	sdram_we_n,
 	sdram_clk_clk,
-	spi_MISO,
-	spi_MOSI,
-	spi_SCLK,
-	spi_SS_n,
 	uart_rxd,
-	uart_txd);	
+	uart_txd,
+	spi_flash_dclk,
+	spi_flash_ncs,
+	spi_flash_data);	
 
 	input		clk_in_clk;
 	input		i2c_sda_in;
 	input		i2c_scl_in;
 	output		i2c_sda_oe;
 	output		i2c_scl_oe;
-	input	[15:0]	pi_export;
+	input	[31:0]	pi_export;
 	inout	[31:0]	pio_export;
 	output	[31:0]	pwm_out;
 	input		reset_reset_n;
@@ -45,10 +44,9 @@ module NIOSDuino_Core (
 	output		sdram_ras_n;
 	output		sdram_we_n;
 	output		sdram_clk_clk;
-	input		spi_MISO;
-	output		spi_MOSI;
-	output		spi_SCLK;
-	output		spi_SS_n;
 	input		uart_rxd;
 	output		uart_txd;
+	output		spi_flash_dclk;
+	output		spi_flash_ncs;
+	inout	[3:0]	spi_flash_data;
 endmodule

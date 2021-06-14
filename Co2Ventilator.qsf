@@ -89,3 +89,9 @@ set_location_assignment PIN_N3 -to BUTTON
 set_location_assignment PIN_M4 -to NIOSDuino_Processor_sdram_cs_n
 set_location_assignment PIN_M8 -to NIOSDuino_Processor_sdram_cke
 set_location_assignment PIN_N2 -to BUTTON2
+set_location_assignment PIN_A3 -to NIOSDuino_Processor_spi_flash_dclk
+set_location_assignment PIN_B3 -to NIOSDuino_Processor_spi_flash_ncs
+set_location_assignment PIN_A2 -to NIOSDuino_Processor_spi_flash_data[0]
+set_location_assignment PIN_B2 -to NIOSDuino_Processor_spi_flash_data[1]
+set_location_assignment PIN_B9 -to NIOSDuino_Processor_spi_flash_data[2]
+set_location_assignment PIN_C4 -to NIOSDuino_Processor_spi_flash_data[3]
