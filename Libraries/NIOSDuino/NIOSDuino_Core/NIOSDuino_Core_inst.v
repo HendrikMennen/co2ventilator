@@ -18,10 +18,14 @@
 		.sdram_ras_n    (<connected-to-sdram_ras_n>),    //          .ras_n
 		.sdram_we_n     (<connected-to-sdram_we_n>),     //          .we_n
 		.sdram_clk_clk  (<connected-to-sdram_clk_clk>),  // sdram_clk.clk
-		.uart_rxd       (<connected-to-uart_rxd>),       //      uart.rxd
-		.uart_txd       (<connected-to-uart_txd>),       //          .txd
+		.spi_MISO       (<connected-to-spi_MISO>),       //       spi.MISO
+		.spi_MOSI       (<connected-to-spi_MOSI>),       //          .MOSI
+		.spi_SCLK       (<connected-to-spi_SCLK>),       //          .SCLK
+		.spi_SS_n       (<connected-to-spi_SS_n>),       //          .SS_n
 		.spi_flash_dclk (<connected-to-spi_flash_dclk>), // spi_flash.dclk
 		.spi_flash_ncs  (<connected-to-spi_flash_ncs>),  //          .ncs
-		.spi_flash_data (<connected-to-spi_flash_data>)  //          .data
+		.spi_flash_data (<connected-to-spi_flash_data>), //          .data
+		.uart_rxd       (<connected-to-uart_rxd>),       //      uart.rxd
+		.uart_txd       (<connected-to-uart_txd>)        //          .txd
 	);
 

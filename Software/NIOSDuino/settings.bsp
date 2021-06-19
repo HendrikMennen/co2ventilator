@@ -2,10 +2,10 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jun 14, 2021 4:39:43 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1623681583978</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Jun 19, 2021 2:04:23 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1624104263050</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>generated_bsp\</BspGeneratedLocation>
-        <BspSettingsFile>settings.bsp</BspSettingsFile>
+        <BspSettingsFile>C:\Users\HendrikMennen\Documents\VHDPlus\Projects\Co2Ventilator\Software\NIOSDuino\settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\NIOSDuino_Core.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_qsys_0</Cpu>
@@ -98,7 +98,7 @@
                 <SettingName>hal.linker.enable_alt_load_copy_rwdata</SettingName>
                 <Identifier>none</Identifier>
                 <Type>Boolean</Type>
-                <Value>1</Value>
+                <Value>0</Value>
                 <DefaultValue>0</DefaultValue>
                 <DestinationFile>none</DestinationFile>
                 <Description>Causes the alt_load() facility to copy the .rwdata section. If true, this setting defines the macro ALT_LOAD_COPY_RWDATA in linker.h.</Description>
@@ -923,16 +923,22 @@
                 <Group xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
         </Setting>
         <MemoryMap>
-                <slaveDescriptor>sdram_controller_0</slaveDescriptor>
-                <addressRange>0x01000000 - 0x017FFFFF</addressRange>
-                <addressSpan>8388608</addressSpan>
-                <attributes>memory</attributes>
+                <slaveDescriptor>spi_0</slaveDescriptor>
+                <addressRange>0x00000000 - 0x0000001F</addressRange>
+                <addressSpan>32</addressSpan>
+                <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>intel_generic_serial_flash_interface_top_0_avl_mem</slaveDescriptor>
-                <addressRange>0x01800000 - 0x01FFFFFF</addressRange>
+                <slaveDescriptor>spi_flash_avl_mem</slaveDescriptor>
+                <addressRange>0x01000000 - 0x017FFFFF</addressRange>
                 <addressSpan>8388608</addressSpan>
                 <attributes>memory, non-volatile</attributes>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>sdram_controller_0</slaveDescriptor>
+                <addressRange>0x01800000 - 0x01FFFFFF</addressRange>
+                <addressSpan>8388608</addressSpan>
+                <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>onchip_memory2_0</slaveDescriptor>
@@ -941,44 +947,74 @@
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>intel_generic_serial_flash_interface_top_0_avl_csr</slaveDescriptor>
-                <addressRange>0x02011000 - 0x020110FF</addressRange>
+                <slaveDescriptor>modular_adc_0_sample_store_csr</slaveDescriptor>
+                <addressRange>0x02011000 - 0x020111FF</addressRange>
+                <addressSpan>512</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>spi_flash_avl_csr</slaveDescriptor>
+                <addressRange>0x02011200 - 0x020112FF</addressRange>
                 <addressSpan>256</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>pwm_0</slaveDescriptor>
+                <addressRange>0x02011300 - 0x020113FF</addressRange>
+                <addressSpan>256</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>i2c_0</slaveDescriptor>
+                <addressRange>0x02011400 - 0x0201143F</addressRange>
+                <addressSpan>64</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>timer_0</slaveDescriptor>
-                <addressRange>0x02011120 - 0x0201113F</addressRange>
+                <addressRange>0x02011460 - 0x0201147F</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes>timer</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>uart_0</slaveDescriptor>
-                <addressRange>0x02011140 - 0x0201115F</addressRange>
+                <addressRange>0x02011480 - 0x0201149F</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>pio_0</slaveDescriptor>
-                <addressRange>0x02011160 - 0x0201117F</addressRange>
+                <addressRange>0x020114A0 - 0x020114BF</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>pll</slaveDescriptor>
-                <addressRange>0x02011190 - 0x0201119F</addressRange>
+                <slaveDescriptor>pio_1</slaveDescriptor>
+                <addressRange>0x020114D0 - 0x020114DF</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>pll</slaveDescriptor>
+                <addressRange>0x020114E0 - 0x020114EF</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>modular_adc_0_sequencer_csr</slaveDescriptor>
+                <addressRange>0x020114F8 - 0x020114FF</addressRange>
+                <addressSpan>8</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>sysid_qsys_0</slaveDescriptor>
-                <addressRange>0x020111A0 - 0x020111A7</addressRange>
+                <addressRange>0x02011500 - 0x02011507</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>jtag_uart_0</slaveDescriptor>
-                <addressRange>0x020111A8 - 0x020111AF</addressRange>
+                <addressRange>0x02011508 - 0x0201150F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>

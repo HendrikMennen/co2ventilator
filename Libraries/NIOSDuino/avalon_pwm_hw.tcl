@@ -217,25 +217,25 @@ add_interface_port interrupt_sender irq irq Output 1
 
 
 proc validate {} {
-	set CLK_PRESCALER_WIDTH [ get_parameter_value CLK_PRESCALER_WIDTH ]
-	set PWM_COUNTER_WIDTH [ get_parameter_value PWM_COUNTER_WIDTH ]
-	set PWM_OUTPUTS_COUNT [ get_parameter_value PWM_OUTPUTS_COUNT ]
-	
-	set PRELOAD_REGS [ get_parameter_value PRELOAD_REGS ]
-	set CONSTANT_MAX [ get_parameter_value CONSTANT_MAX ]
-	set PULSE_DITHER [ get_parameter_value PULSE_DITHER ]
-	
-	set CLOCK_RATE [ get_parameter_value clockRate ]
-	
-	set_module_assignment embeddedsw.CMacro.CLK_PRESCALER_WIDTH "$CLK_PRESCALER_WIDTH"
-	set_module_assignment embeddedsw.CMacro.PWM_COUNTER_WIDTH "$PWM_COUNTER_WIDTH"
-	set_module_assignment embeddedsw.CMacro.PWM_OUTPUTS_COUNT "$PWM_OUTPUTS_COUNT"
-	
-	set_module_assignment embeddedsw.CMacro.PRELOAD_REGS "$PRELOAD_REGS"
-	set_module_assignment embeddedsw.CMacro.CONSTANT_MAX "$CONSTANT_MAX"
-	set_module_assignment embeddedsw.CMacro.PULSE_DITHER "$PULSE_DITHER"
-	
-	set_module_assignment embeddedsw.CMacro.FREQ "$CLOCK_RATE"
+    set CLK_PRESCALER_WIDTH [ get_parameter_value CLK_PRESCALER_WIDTH ]
+    set PWM_COUNTER_WIDTH [ get_parameter_value PWM_COUNTER_WIDTH ]
+    set PWM_OUTPUTS_COUNT [ get_parameter_value PWM_OUTPUTS_COUNT ]
+    
+    set PRELOAD_REGS [ get_parameter_value PRELOAD_REGS ]
+    set CONSTANT_MAX [ get_parameter_value CONSTANT_MAX ]
+    set PULSE_DITHER [ get_parameter_value PULSE_DITHER ]
+    
+    set CLOCK_RATE [ get_parameter_value clockRate ]
+    
+    set_module_assignment embeddedsw.CMacro.CLK_PRESCALER_WIDTH "$CLK_PRESCALER_WIDTH"
+    set_module_assignment embeddedsw.CMacro.PWM_COUNTER_WIDTH "$PWM_COUNTER_WIDTH"
+    set_module_assignment embeddedsw.CMacro.PWM_OUTPUTS_COUNT "$PWM_OUTPUTS_COUNT"
+    
+    set_module_assignment embeddedsw.CMacro.PRELOAD_REGS "$PRELOAD_REGS"
+    set_module_assignment embeddedsw.CMacro.CONSTANT_MAX "$CONSTANT_MAX"
+    set_module_assignment embeddedsw.CMacro.PULSE_DITHER "$PULSE_DITHER"
+    
+    set_module_assignment embeddedsw.CMacro.FREQ "$CLOCK_RATE"
 }
 
 add_documentation_link "Readme" https://github.com/dimag0g/avalon_pwm 

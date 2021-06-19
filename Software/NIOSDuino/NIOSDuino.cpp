@@ -25,7 +25,6 @@ void printText(uint8_t modStart, uint8_t modEnd, char *pMsg)
     uint16_t  showLen;
     uint8_t   cBuf[8];
     int16_t   col = ((modEnd + 1) * COL_SIZE) - 1;
-
     mx.control(modStart, modEnd, MD_MAX72XX::UPDATE, MD_MAX72XX::OFF);
 
     do     // finite state machine to print the characters in the space available
@@ -106,7 +105,7 @@ void readState()
     
     //Mode
     if(!autoMode)
-    {        
+    {
         int mode1 = digitalRead(33);
         int mode2 = digitalRead(34);
         

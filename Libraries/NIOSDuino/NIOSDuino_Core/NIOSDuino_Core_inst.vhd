@@ -19,11 +19,15 @@
 			sdram_ras_n    : out   std_logic;                                        -- ras_n
 			sdram_we_n     : out   std_logic;                                        -- we_n
 			sdram_clk_clk  : out   std_logic;                                        -- clk
-			uart_rxd       : in    std_logic                     := 'X';             -- rxd
-			uart_txd       : out   std_logic;                                        -- txd
+			spi_MISO       : in    std_logic                     := 'X';             -- MISO
+			spi_MOSI       : out   std_logic;                                        -- MOSI
+			spi_SCLK       : out   std_logic;                                        -- SCLK
+			spi_SS_n       : out   std_logic;                                        -- SS_n
 			spi_flash_dclk : out   std_logic;                                        -- dclk
 			spi_flash_ncs  : out   std_logic;                                        -- ncs
-			spi_flash_data : inout std_logic_vector(3 downto 0)  := (others => 'X')  -- data
+			spi_flash_data : inout std_logic_vector(3 downto 0)  := (others => 'X'); -- data
+			uart_rxd       : in    std_logic                     := 'X';             -- rxd
+			uart_txd       : out   std_logic                                         -- txd
 		);
 	end component NIOSDuino_Core;
 
@@ -48,10 +52,14 @@
 			sdram_ras_n    => CONNECTED_TO_sdram_ras_n,    --          .ras_n
 			sdram_we_n     => CONNECTED_TO_sdram_we_n,     --          .we_n
 			sdram_clk_clk  => CONNECTED_TO_sdram_clk_clk,  -- sdram_clk.clk
-			uart_rxd       => CONNECTED_TO_uart_rxd,       --      uart.rxd
-			uart_txd       => CONNECTED_TO_uart_txd,       --          .txd
+			spi_MISO       => CONNECTED_TO_spi_MISO,       --       spi.MISO
+			spi_MOSI       => CONNECTED_TO_spi_MOSI,       --          .MOSI
+			spi_SCLK       => CONNECTED_TO_spi_SCLK,       --          .SCLK
+			spi_SS_n       => CONNECTED_TO_spi_SS_n,       --          .SS_n
 			spi_flash_dclk => CONNECTED_TO_spi_flash_dclk, -- spi_flash.dclk
 			spi_flash_ncs  => CONNECTED_TO_spi_flash_ncs,  --          .ncs
-			spi_flash_data => CONNECTED_TO_spi_flash_data  --          .data
+			spi_flash_data => CONNECTED_TO_spi_flash_data, --          .data
+			uart_rxd       => CONNECTED_TO_uart_rxd,       --      uart.rxd
+			uart_txd       => CONNECTED_TO_uart_txd        --          .txd
 		);
 

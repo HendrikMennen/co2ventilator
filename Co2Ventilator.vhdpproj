@@ -36,6 +36,9 @@
     <Items xsi:type="ProjectFileVHDP">
       <Header>Input_Debouncer.vhdp</Header>
     </Items>
+    <Items xsi:type="ProjectFileVHDL">
+      <Header>bidir_buf.vhd</Header>
+    </Items>
   </Items>
   <Items xsi:type="ProjectFolder">
     <Header>Software</Header>
@@ -229,6 +232,12 @@
       </Items>
       <Items xsi:type="ProjectFile">
         <Header>NIOSDuino.cpp</Header>
+      </Items>
+      <Items xsi:type="ProjectFile">
+        <Header>compile_commands.json</Header>
+      </Items>
+      <Items xsi:type="ProjectFile">
+        <Header>settings.bsp</Header>
       </Items>
     </Items>
   </Items>
