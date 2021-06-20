@@ -18,7 +18,6 @@ module NIOSDuino_Core (
 	sdram_dqm,
 	sdram_ras_n,
 	sdram_we_n,
-	sdram_clk_clk,
 	spi_MISO,
 	spi_MOSI,
 	spi_SCLK,
@@ -47,7 +46,6 @@ module NIOSDuino_Core (
 	output	[1:0]	sdram_dqm;
 	output		sdram_ras_n;
 	output		sdram_we_n;
-	output		sdram_clk_clk;
 	input		spi_MISO;
 	output		spi_MOSI;
 	output		spi_SCLK;

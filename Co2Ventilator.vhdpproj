@@ -33,6 +33,15 @@
         <Header>avalon_pwm_sw.tcl</Header>
       </Items>
     </Items>
+    <Items xsi:type="ProjectFolder">
+      <Header>PLL</Header>
+      <Items xsi:type="ProjectFile">
+        <Header>PLL.qip</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDL">
+        <Header>PLL.vhd</Header>
+      </Items>
+    </Items>
     <Items xsi:type="ProjectFileVHDP">
       <Header>Input_Debouncer.vhdp</Header>
     </Items>

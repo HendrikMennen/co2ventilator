@@ -4,9 +4,9 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2018  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -16,8 +16,7 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+refer to the applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
@@ -151,13 +150,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 488)(pt 112 488)(line_width 1))
 	)
 	(port
-		(pt 288 72)
-		(output)
-		(text "sdram_clk_clk" (rect 0 0 59 12)(font "Arial" (font_size 8)))
-		(text "sdram_clk_clk" (rect 216 61 294 72)(font "Arial" (font_size 8)))
-		(line (pt 288 72)(pt 176 72)(line_width 1))
-	)
-	(port
 		(pt 0 544)
 		(output)
 		(text "spi_MOSI" (rect 0 0 40 12)(font "Arial" (font_size 8)))
@@ -246,8 +238,6 @@ https://fpgasoftware.intel.com/eula.
 		(text "dqm" (rect 117 451 252 912)(font "Arial" (color 0 0 0)))
 		(text "ras_n" (rect 117 467 264 944)(font "Arial" (color 0 0 0)))
 		(text "we_n" (rect 117 483 258 976)(font "Arial" (color 0 0 0)))
-		(text "sdram_clk" (rect 177 43 408 99)(font "Arial" (color 128 0 0)(font_size 9)))
-		(text "clk" (rect 161 67 340 144)(font "Arial" (color 0 0 0)))
 		(text "spi" (rect 96 499 210 1011)(font "Arial" (color 128 0 0)(font_size 9)))
 		(text "MISO" (rect 117 523 258 1056)(font "Arial" (color 0 0 0)))
 		(text "MOSI" (rect 117 539 258 1088)(font "Arial" (color 0 0 0)))
@@ -260,7 +250,7 @@ https://fpgasoftware.intel.com/eula.
 		(text "uart" (rect 90 659 204 1331)(font "Arial" (color 128 0 0)(font_size 9)))
 		(text "rxd" (rect 117 683 252 1376)(font "Arial" (color 0 0 0)))
 		(text "txd" (rect 117 699 252 1408)(font "Arial" (color 0 0 0)))
-		(text " system " (rect 253 720 554 1450)(font "Arial" ))
+		(text " NIOSDuino_Core " (rect 211 720 518 1450)(font "Arial" ))
 		(line (pt 112 32)(pt 176 32)(line_width 1))
 		(line (pt 176 32)(pt 176 720)(line_width 1))
 		(line (pt 112 720)(pt 176 720)(line_width 1))
@@ -279,8 +269,6 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 114 300)(pt 114 324)(line_width 1))
 		(line (pt 113 340)(pt 113 492)(line_width 1))
 		(line (pt 114 340)(pt 114 492)(line_width 1))
-		(line (pt 175 52)(pt 175 76)(line_width 1))
-		(line (pt 174 52)(pt 174 76)(line_width 1))
 		(line (pt 113 508)(pt 113 580)(line_width 1))
 		(line (pt 114 508)(pt 114 580)(line_width 1))
 		(line (pt 113 596)(pt 113 652)(line_width 1))

@@ -18,7 +18,6 @@
 			sdram_dqm      : out   std_logic_vector(1 downto 0);                     -- dqm
 			sdram_ras_n    : out   std_logic;                                        -- ras_n
 			sdram_we_n     : out   std_logic;                                        -- we_n
-			sdram_clk_clk  : out   std_logic;                                        -- clk
 			spi_MISO       : in    std_logic                     := 'X';             -- MISO
 			spi_MOSI       : out   std_logic;                                        -- MOSI
 			spi_SCLK       : out   std_logic;                                        -- SCLK
@@ -51,7 +50,6 @@
 			sdram_dqm      => CONNECTED_TO_sdram_dqm,      --          .dqm
 			sdram_ras_n    => CONNECTED_TO_sdram_ras_n,    --          .ras_n
 			sdram_we_n     => CONNECTED_TO_sdram_we_n,     --          .we_n
-			sdram_clk_clk  => CONNECTED_TO_sdram_clk_clk,  -- sdram_clk.clk
 			spi_MISO       => CONNECTED_TO_spi_MISO,       --       spi.MISO
 			spi_MOSI       => CONNECTED_TO_spi_MOSI,       --          .MOSI
 			spi_SCLK       => CONNECTED_TO_spi_SCLK,       --          .SCLK

@@ -17,7 +17,6 @@
 		.sdram_dqm      (<connected-to-sdram_dqm>),      //          .dqm
 		.sdram_ras_n    (<connected-to-sdram_ras_n>),    //          .ras_n
 		.sdram_we_n     (<connected-to-sdram_we_n>),     //          .we_n
-		.sdram_clk_clk  (<connected-to-sdram_clk_clk>),  // sdram_clk.clk
 		.spi_MISO       (<connected-to-spi_MISO>),       //       spi.MISO
 		.spi_MOSI       (<connected-to-spi_MOSI>),       //          .MOSI
 		.spi_SCLK       (<connected-to-spi_SCLK>),       //          .SCLK
