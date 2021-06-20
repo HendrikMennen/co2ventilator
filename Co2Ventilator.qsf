@@ -26,6 +26,9 @@ set_global_assignment -name QSYS_FILE Libraries/NIOSDuino/NIOSDuino_Core.qsys
 set_global_assignment -name VERILOG_FILE Libraries/NIOSDuino/avalon_pwm.v
 set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_hw.tcl
 set_global_assignment -name TCL_SCRIPT_FILE Libraries/NIOSDuino/avalon_pwm_sw.tcl
+set_global_assignment -name QIP_FILE Libraries/PLL/PLL.qip
+set_global_assignment -name VHDL_FILE Libraries/PLL/PLL.vhd
+set_global_assignment -name VHDL_FILE Libraries/bidir_buf.vhd
 set_location_assignment PIN_H6 -to CLK
 set_location_assignment PIN_E6 -to NIOSDuino_Processor_Reset
 set_location_assignment PIN_K6 -to NIOSDuino_Processor_sdram_addr[0]
