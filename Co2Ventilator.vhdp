@@ -68,7 +68,7 @@ Main
         sdram_clk_clk  =>NIOSDuino_Processor_sdram_clk_clk,
         pio_export     =>NIOSDuino_Processor_pio_export,
         pi_export      =>NIOSDuino_Processor_pi_export,
-        pwm_out        =>NIOSDuino_Processor_pwm_out,
+        pwm_out(3 downto 0)        =>NIOSDuino_Processor_pwm_out,
         uart_rxd       =>NIOSDuino_Processor_uart_rxd,
         uart_txd       =>NIOSDuino_Processor_uart_txd,
         i2c_sda        =>NIOSDuino_Processor_i2c_sda,
