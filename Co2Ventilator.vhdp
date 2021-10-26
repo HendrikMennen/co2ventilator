@@ -6,7 +6,7 @@ Main
     
     NIOSDuino_Processor_i2c_sda_pull  : OUT STD_LOGIC;
     NIOSDuino_Processor_i2c_scl_pull  : OUT STD_LOGIC;
-    NIOSDuino_Processor_i2c_sel  : OUT STD_LOGIC; --test
+    NIOSDuino_Processor_i2c_sel  : OUT STD_LOGIC; --testa
     NIOSDuino_Processor_Reset          : IN STD_LOGIC := '1';
     NIOSDuino_Processor_sdram_addr     : OUT STD_LOGIC_VECTOR (11 downto 0);
     NIOSDuino_Processor_sdram_ba       : OUT STD_LOGIC_VECTOR (1 downto 0);
